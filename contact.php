@@ -3,7 +3,6 @@
 
 <!-- MAKE SURE YOU GET YOUR (3) IMAGES SAVED INTO YOUR IMAGES FOLDER -->
 
-
 <?php
         /*
          * Below are 2 different forms to be re-used       
@@ -22,7 +21,8 @@
         //echo loadContact('multiple.php');#demonstrates multiple form elements
 
 	?>
-    
+
+
 </section>
 <!-- END LEFT COL -->
 
