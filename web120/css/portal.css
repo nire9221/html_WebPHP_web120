@@ -21,6 +21,7 @@ h1>a {
     font-size:1.25em;
 }
 
+
 /* Embed Responsively Rules! */
 div.embed-container {
     position: relative;
@@ -63,14 +64,14 @@ footer {
 		float:right;
 	}
 			
-    img.desktop {
+    img.climbing {
       		float:left;
        		width:50%;
             display:inline-block;
             margin-right:1em;
     }
     
-    img.tablet, img.phone {
+    img.paddle, img.skating {
        	display:none;
     	}  
     
@@ -95,12 +96,12 @@ footer {
 		float:right;
 	}
 	
-    img.tablet {
+    img.paddle {
        		width:100%;
             display:inline-block;
     }
     
-    img.desktop, img.phone {
+    img.climbing, img.skating {
        	display:none;
     	}  
     
@@ -115,12 +116,12 @@ footer {
 /* PHONE */
 @media all and (max-width:736px) {
     
-    img.phone {
+    img.skating {
        		width:100%;
             display:inline-block;
     }
     
-    img.tablet, img.desktop {
+    img.climbing, img.paddle {
        	display:none;
     	}  
 
