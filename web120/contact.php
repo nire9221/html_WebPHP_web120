@@ -28,9 +28,8 @@
 
 <!-- START RIGHT COL -->
 <aside>
- <h3>Right Column</h3>
+ <h3>Contact me</h3>
  <img src="images/tablet.jpg" class="tablet" alt="Picture of German Shepherd" />
- <p>Lorem Ipsum place holder text goes here for now</p>
  <p>Lorem Ipsum place holder text goes here for now</p>
 </aside>
 <!-- END RIGHT COL -->

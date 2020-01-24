@@ -3,16 +3,17 @@
 
 <!-- MAKE SURE YOU GET YOUR (3) IMAGES SAVED INTO YOUR IMAGES FOLDER -->
 
-<p>flow chart </p>
+<p>AIA </p>
 
 </section>
 <!-- END LEFT COL -->
 
 <!-- START RIGHT COL -->
 <aside>
- <h3>flow chart</h3>
-
-
+ <h3>Right Column</h3>
+ 
+ <p>Lorem Ipsum place holder text goes here for now</p>
+ <p>Lorem Ipsum place holder text goes here for now</p>
 </aside>
 <!-- END RIGHT COL -->
  

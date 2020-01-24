@@ -1,7 +1,7 @@
 
 <?php include 'includes/header.php';?>
 
-<!-- MAKE SURE YOU GET YOUR (3) IMAGES SAVED INTO YOUR IMAGES FOLDER -->
+
 
 <p>big </p>
 
