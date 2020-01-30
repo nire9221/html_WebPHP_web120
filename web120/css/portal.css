@@ -1,23 +1,37 @@
 /* My WEB120 Portal Website Styles */
 
 html {
-    background-color:#ccc;
+    background-color:#0e4b5c;
+    font-family: 'Asap', sans-serif;
 }
 
 main.wrapper {
-    background-color:#fff;
+    background-color:#0e4b5c;
     overflow:auto;
 }
 
 h1>a {
     text-decoration: none;
-    color:#000;
+    color:#ffffff;
+    
+}
+
+p {
+    line-height: 1.6;
+    font-size: 18px;
+    color:#ffffff;
+
+}
+
+h2, h3{
+    color: #ffffff;
+    margin-top: 15px;
 }
 
 .logo {
-    color:red;
+    color:#ffffff;
     margin-left:1%;
-    text-shadow:1px 1px #ccc;
+    text-shadow:1px 1px #ffffff;
     font-size:1.25em;
 }
 
@@ -41,7 +55,8 @@ div.embed-container iframe {
 }
 
 footer {
-	clear:both;
+    clear:both;
+    color: #ffffff;
 }
 
 /* START RESPONSIVE STYLES */
@@ -64,21 +79,22 @@ footer {
 		float:right;
 	}
 			
-    img.climbing {
+    img.desktop {
       		float:left;
        		width:50%;
             display:inline-block;
             margin-right:1em;
+            margin-bottom: 15px;
     }
     
-    img.paddle, img.skating {
+    img.tablet, img.phone {
        	display:none;
     	}  
     
     /* Change background color of navigation on selected page */
     ul.topnav li a.selected {
-        		background-color: #ccc;
-        		color:#000;
+        		background-color:#0e4b5c;
+        		color:#ffffff;
    	 }
 }
 
@@ -96,12 +112,12 @@ footer {
 		float:right;
 	}
 	
-    img.paddle {
+    img.tablet {
        		width:100%;
             display:inline-block;
     }
     
-    img.climbing, img.skating {
+    img.desktop, img.phone {
        	display:none;
     	}  
     
@@ -116,12 +132,12 @@ footer {
 /* PHONE */
 @media all and (max-width:736px) {
     
-    img.skating {
+    img.phone {
        		width:100%;
             display:inline-block;
     }
     
-    img.climbing, img.paddle {
+    img.desktop, img.tablet {
        	display:none;
     	}  
 

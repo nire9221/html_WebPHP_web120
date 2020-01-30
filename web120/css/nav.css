@@ -7,7 +7,7 @@ ul.topnav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color:#0e4b5c);
 }
 
 /* Float the list items side by side */
@@ -16,12 +16,13 @@ ul.topnav li {float: left;}
 /* Style the links inside the list items */
 ul.topnav li a {
     display: inline-block;
-    color: #f2f2f2;
+    color: #f3f3f3;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     transition: 0.3s;
-    font-size: 17px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 /* Change background color of links on hover */
