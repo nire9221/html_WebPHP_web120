@@ -7,7 +7,7 @@ ul.topnav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:#0e4b5c);
+    background-color:#0e4b5c;
 }
 
 /* Float the list items side by side */
@@ -38,8 +38,8 @@ ul.topnav li.icon {display: none;}
     float: right;
     display: inline-block;
    
+  }
 }
-
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
 
 @media screen and (max-width:680px) {
@@ -62,4 +62,4 @@ ul.topnav li.icon {display: none;}
     text-align: left;
 }
     
-    }
+}
