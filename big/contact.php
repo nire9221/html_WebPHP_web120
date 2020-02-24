@@ -1,7 +1,7 @@
-
 <?php include 'includes/header.php';?>
 
-<!-- MAKE SURE YOU GET YOUR (3) IMAGES SAVED INTO YOUR IMAGES FOLDER -->
+<div class ="content">
+<h2 class="pageID"><?=$PageID?></h2>
 
 <?php
         /*
@@ -13,25 +13,16 @@
 
         include 'includes/contact_include.php'; #site keys & code here
     
-        $toAddress = "ecoledeflowerbiz@gmail.com";  //place your/your client's email address here
-        $toName = "ecole de flower"; //place your client's name here
+        $toAddress = "erintheword@gmail.com";  //place your/your client's email address here
+        $toName = "erintheworld"; //place your client's name here
         $website = "contact form";  //place NAME of your client's website
 
-        echo loadContact('simple.php');#demonstrates a simple contact form
+        echo loadContact('multiple.php');#demonstrates a simple contact form
         //echo loadContact('multiple.php');#demonstrates multiple form elements
 
 	?>
 
-
-</section>
-<!-- END LEFT COL -->
-
-<!-- START RIGHT COL -->
-<aside>
- <h3>Contact me</h3>
- <p>pleae share with me your opinion</p>
-</aside>
-<!-- END RIGHT COL -->
+</div>    
  
 <?php include 'includes/footer.php';?>
 

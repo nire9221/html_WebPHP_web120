@@ -20,6 +20,7 @@ p {
     line-height: 1.6;
     font-size: 18px;
     color:#ffffff;
+    float:right;
 
 }
 
@@ -57,7 +58,27 @@ div.embed-container iframe {
 footer {
     clear:both;
     color: #ffffff;
+} 
+
+
+/*Table in AIA*/
+
+table {
+    border:3px outset rgb(212, 255, 244);
+    border-collapse: collapse;
+    width: 100%;
+    margin: 15px;
+    overflow: auto;
+
 }
+
+th,td {
+    color: #bfe2dc;
+    padding : 10px;
+    
+}
+
+
 
 /* START RESPONSIVE STYLES */
 
@@ -80,8 +101,8 @@ footer {
 	}
 			
     img.desktop {
-      		float:left;
-       		width:50%;
+            width:50%;
+            /* float:left; */
             display:inline-block;
             margin-right:1em;
             margin-bottom: 15px;
@@ -113,14 +134,15 @@ footer {
 	}
 	
     img.tablet {
-       		width:100%;
+            width:100%;
+            /* float:left; */
             display:inline-block;
     }
     
     img.desktop, img.phone {
        	display:none;
     	}  
-    
+
     
     /* Change background color of navigation on selected page */
     ul.topnav li a.selected {
@@ -133,8 +155,10 @@ footer {
 @media all and (max-width:736px) {
     
     img.phone {
-       		width:100%;
-            display:inline-block;
+            width:100%;
+            /* float:right; */
+            display: inline-block;
+            background-color: beige;
     }
     
     img.desktop, img.tablet {

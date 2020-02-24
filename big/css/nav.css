@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+}
+
+html,body{
+    font-family:'Tomorrow', sans-serif;
+    margin-top:0;
+    background-color: black;
+
+}
+
+/*------- top nav -------*/
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+
+  }
+  
+nav li {
+    float: left;
+  }
+  
+nav li a, a.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+nav li.dropdown {
+    display: inline-block;
+  }
+
+nav li a:hover, li.dropdown:hover a.dropbtn {
+    background-color: rgb(255, 74, 61);
+    color: rgb(0, 0, 0);
+  }
+
+.active {
+    background-color: rgb(248, 252, 59);
+    color: black;
+  }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ff7474b9;;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(2, 2, 2, 0.2);
+  z-index: 3;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(255, 74, 61);;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/*------- left bottom button -------*/
+
+.popBtn{
+    z-index:3;
+    position:fixed;
+    bottom: 180px;
+    left: 25px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer; 
+    font-family: 'Lacquer';
+    
+}
+
+.popBtn:hover{
+  background-color: rgb(255, 74, 61);
+  color:rgb(255, 252, 67);
+
+}
+
+.modal{
+    z-index:1;
+    display:none;
+    position:fixed;
+    left:35px;
+    padding-left:10px;
+    padding-top:10px;
+    bottom:30%;
+    width:25%;
+    height:25%;
+    overflow:auto;
+    background-color:rgba(0, 0, 0, 0.5);
+    color: white;
+    font-family: 'Lacquer';
+  
+}
+
+.modal p a{
+  text-decoration: none; 
+  color:white;
+}
+
+.modal p a:hover{
+  font-size:23px;
+  color:rgb(255, 74, 61);
+}
+
+/*------- footer ------*/
+
+footer{
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color:white;
+    margin-bottom: 30px 0 30px 0;
+    left: 0;
+    bottom: 0;
+}
+
+footer h1{
+  padding: 2px;
+}
+
+footer p{
+  padding: 5px;
+}
+
+footer p a {
+  color: white;
+}
+
+footer p a:hover {
+    color: rgb(255, 0, 179);
+}
+
+.social a{
+    color:white;
+    padding: 10px;
+    border:1px solid rgb(255, 0, 179);
+}
+.social a:hover{
+    background-color: rgb(255, 0, 179);
+}
+
+.gototop{
+    float:right;
+    margin-right:35px;
+    color:white;
+}
+
