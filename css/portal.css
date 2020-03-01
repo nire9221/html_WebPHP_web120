@@ -9,33 +9,21 @@ main.wrapper {
     background-color:#0e4b5c;
     overflow:auto;
 }
-
+p, h2,h3{
+    color:white;
+    line-height: 20px;
+}
 h1>a {
     text-decoration: none;
-    color:#ffffff;
-    
-}
-
-p {
-    line-height: 1.6;
-    font-size: 18px;
-    color:#ffffff;
-    float:right;
-
-}
-
-h2, h3{
-    color: #ffffff;
-    margin-top: 15px;
+    color:white;
 }
 
 .logo {
-    color:#ffffff;
+    color:rgb(255, 255, 255);
     margin-left:1%;
-    text-shadow:1px 1px #ffffff;
+    text-shadow:1px 1px #ccc;
     font-size:1.25em;
 }
-
 
 /* Embed Responsively Rules! */
 div.embed-container {
@@ -56,29 +44,8 @@ div.embed-container iframe {
 }
 
 footer {
-    clear:both;
-    color: #ffffff;
-} 
-
-
-/*Table in AIA*/
-
-table {
-    border:3px outset rgb(212, 255, 244);
-    border-collapse: collapse;
-    width: 100%;
-    margin: 15px;
-    overflow: auto;
-
+	clear:both;
 }
-
-th,td {
-    color: #bfe2dc;
-    padding : 10px;
-    
-}
-
-
 
 /* START RESPONSIVE STYLES */
 
@@ -101,11 +68,10 @@ th,td {
 	}
 			
     img.desktop {
-            width:50%;
-            /* float:left; */
+      		float:left;
+       		width:50%;
             display:inline-block;
             margin-right:1em;
-            margin-bottom: 15px;
     }
     
     img.tablet, img.phone {
@@ -114,8 +80,8 @@ th,td {
     
     /* Change background color of navigation on selected page */
     ul.topnav li a.selected {
-        		background-color:#0e4b5c;
-        		color:#ffffff;
+        		background-color: #ccc;
+        		color:#000;
    	 }
 }
 
@@ -134,15 +100,14 @@ th,td {
 	}
 	
     img.tablet {
-            width:100%;
-            /* float:left; */
+       		width:100%;
             display:inline-block;
     }
     
     img.desktop, img.phone {
        	display:none;
     	}  
-
+    
     
     /* Change background color of navigation on selected page */
     ul.topnav li a.selected {
@@ -155,13 +120,11 @@ th,td {
 @media all and (max-width:736px) {
     
     img.phone {
-            width:100%;
-            /* float:right; */
-            display: inline-block;
-            background-color: beige;
+       		width:100%;
+            display:inline-block;
     }
     
-    img.desktop, img.tablet {
+    img.tablet, img.desktop {
        	display:none;
     	}  
 

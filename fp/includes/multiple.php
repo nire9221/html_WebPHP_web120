@@ -72,7 +72,7 @@
 </div>	
 <div class="g-recaptcha" data-sitekey="<?=$siteKey;?>"></div>
 <div>
-    <input type="submit" value="submit" />
+    <input type="SUBMIT" value="submit" />
 </div>
 </form>
 <!-- END HTML FORM -->

@@ -26,12 +26,6 @@
 </section>
 <!-- END LEFT COL -->
 
-<!-- START RIGHT COL -->
-<aside>
- <h3>Contact me</h3>
- <p>pleae share with me your opinion</p>
-</aside>
-<!-- END RIGHT COL -->
  
 <?php include 'includes/footer.php';?>
 

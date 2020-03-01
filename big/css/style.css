@@ -154,7 +154,7 @@ input[type=submit]:hover {
     transform-origin:0 0;
     margin:3px 0 3px 0;
   }
-  textarea {
+  .textarea {
     transform:scale(0.25);
     transform-origin:0 0;
 }
