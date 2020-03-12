@@ -12,8 +12,5 @@
     <i class="fa fa-chevron-circle-up" style="color:black; margin-left:5px;"></i></span></a>
 </div>
 </footer>
-<script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
-<script src="js/app.js"></script>
-<!-- <script src="js/products.json"></script> -->
 </body>
 </html>

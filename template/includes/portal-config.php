@@ -1,19 +1,7 @@
 <?php
 
-/*
-portal-config.php
-
-Used to store all of our WEB120 configuration information
-
-*/
-
-//prevents data from being sent early
 ob_start();
-
-// this helps us avoid PHP date errors:
 date_default_timezone_set('America/Los_Angeles');
-
-//echo basename($_SERVER['PHP_SELF']);
 
 define('THIS_PAGE',basename($_SERVER['PHP_SELF']));
 
@@ -22,32 +10,23 @@ define('THIS_PAGE',basename($_SERVER['PHP_SELF']));
 switch(THIS_PAGE){
 
     case 'index.php':
-        $title = "Welcome to erintheworld";
-        $logo = 'fa-home fa-2x';
+        $title = "Welcome to Ecole de flower";
+        $logo = '';
     break;
 
     case 'about.php':
         $title = "About";
-        $logo = 'fa-user fa-2x';
-        $PageID = 'About Me';
+        $PageID = 'About Us';
     break;
 
-    case 'project.php':
-        $title = "Project";
-        $logo = "fa-eye fa-2x";
-        $PageID = 'Project';
-    break;
-
-    case 'photo.php':
-        $title = "Gallery";
-        $logo = 'fa-instagram fa-2x';
-        $PageID = 'Gallery';
+    case 'shop.php':
+        $title = "Shop";
+        $PageID = 'Shop';
     break;
     
     case 'contact.php':
-        $title = "Contact JY";
-        $logo = "fa-envelope fa-2x";
-        $PageID = 'Contact JY';
+        $title = "Contact Us";
+        $PageID = 'Contact Us';
     break;
 
     default:

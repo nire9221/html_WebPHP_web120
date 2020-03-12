@@ -1,4 +1,14 @@
 <?php include 'includes/header.php';?>
+
+<!-- hero -->
+<header class="hero" >
+  <div class="banner">
+    <h1 class="banner-title">Ecole de flower collection</h1>
+      <button class="banner-btn"><a href="shop.php">shop now</a></button>
+  </div>      
+</header>
+<!-- end of hero -->
+
 <!-- products -->
 <section class="products">
   <div class="section-title">
@@ -8,7 +18,7 @@
 <!-- single product -->
 <article class="product">
   <div class="img-container">
-    <img src="./images/1.jpg" alt="flower1" class="product-img"/>
+    <img src="./images/bg3.jpeg" alt="product" class="product-img"/>
     <button class="bag-btn" data-id="1">
       <i class="fas fa-shopping-cart"></i>add to bag</button>
   </div>
@@ -28,6 +38,22 @@
   <span class="close-cart"><i class="far fa-window-close"></i></span>
     <h2>your cart</h2>
     <div class="cart-content">
+<!-- cart item -->
+<!-- <div class="cart-item">
+<img src="./images/product-1.jpeg" alt="product" />
+<div>
+<h4>flower</h4>
+<h5>$15.00</h5>
+<span class="remove-item">remove</span>
+</div>
+<div>
+<i class="fas fa-chevron-up"></i>
+<p class="item-amount">1</p>
+<i class="fas fa-chevron-down"></i>
+</div>
+</div> -->
+
+<!-- cart item -->
   </div>
 <div class="cart-footer">
   <h3>your total : $<span class="cart-total">0</span></h3>
@@ -36,5 +62,4 @@
   </div>
 </div>
 <!-- end of cart -->
-
 <?php include 'includes/footer.php';?>

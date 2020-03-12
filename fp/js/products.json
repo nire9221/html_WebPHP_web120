@@ -1,132 +1,84 @@
 {
-  "items": [
+  "name": "EcoleDeFlower",
+  "description": "",
+  "displayField": "title",
+  "fields": [
     {
-      "sys": {
-        "id": "1"
-      },
-      "fields": {
-        "title": "queen panel bed",
-        "price": 10.99,
-        "image": {
-          "fields": {
-            "file": {
-              "url": "./images/bg3.jpeg"
-            }
-          }
-        }
-      }
+      "id": "title",
+      "name": "title",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
     },
     {
-      "sys": {
-        "id": "2"
-      },
-      "fields": {
-        "title": "king panel bed",
-        "price": 12.99,
-        "image": {
-          "fields": {
-            "file": {
-              "url": "./images/product-2.jpeg"
-            }
-          }
-        }
-      }
+      "id": "price",
+      "name": "price",
+      "type": "Number",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
     },
     {
+      "id": "image",
+      "name": "image",
+      "type": "Link",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false,
+      "linkType": "Asset"
+    }
+  ],
+  "sys": {
+    "space": {
       "sys": {
-        "id": "3"
-      },
-      "fields": {
-        "title": "single panel bed",
-        "price": 12.99,
-        "image": {
-          "fields": {
-            "file": {
-              "url": "./images/product-3.jpeg"
-            }
-          }
-        }
+        "type": "Link",
+        "linkType": "Space",
+        "id": "othqr41ged4k"
       }
     },
-    {
+    "id": "ecoleDeFlower",
+    "type": "ContentType",
+    "createdAt": "2020-03-02T17:27:37.889Z",
+    "updatedAt": "2020-03-02T17:27:38.277Z",
+    "environment": {
       "sys": {
-        "id": "4"
-      },
-      "fields": {
-        "title": "twin panel bed",
-        "price": 22.99,
-        "image": {
-          "fields": {
-            "file": {
-              "url": "./images/product-4.jpeg"
-            }
-          }
-        }
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
       }
     },
-    {
+    "publishedVersion": 1,
+    "publishedAt": "2020-03-02T17:27:38.277Z",
+    "firstPublishedAt": "2020-03-02T17:27:38.277Z",
+    "createdBy": {
       "sys": {
-        "id": "5"
-      },
-      "fields": {
-        "title": "fridge",
-        "price": 88.99,
-        "image": {
-          "fields": {
-            "file": {
-              "url": "./images/product-5.jpeg"
-            }
-          }
-        }
+        "type": "Link",
+        "linkType": "User",
+        "id": "3P73IzErvHqgpHNdnDRzNw"
       }
     },
-    {
+    "updatedBy": {
       "sys": {
-        "id": "6"
-      },
-      "fields": {
-        "title": "dresser",
-        "price": 32.99,
-        "image": {
-          "fields": {
-            "file": {
-              "url": "./images/product-6.jpeg"
-            }
-          }
-        }
+        "type": "Link",
+        "linkType": "User",
+        "id": "3P73IzErvHqgpHNdnDRzNw"
       }
     },
-    {
+    "publishedCounter": 1,
+    "version": 2,
+    "publishedBy": {
       "sys": {
-        "id": "7"
-      },
-      "fields": {
-        "title": "couch",
-        "price": 45.99,
-        "image": {
-          "fields": {
-            "file": {
-              "url": "./images/product-7.jpeg"
-            }
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "id": "8"
-      },
-      "fields": {
-        "title": "table",
-        "price": 33.99,
-        "image": {
-          "fields": {
-            "file": {
-              "url": "./images/product-8.jpeg"
-            }
-          }
-        }
+        "type": "Link",
+        "linkType": "User",
+        "id": "3P73IzErvHqgpHNdnDRzNw"
       }
     }
-  ]
+  }
 }

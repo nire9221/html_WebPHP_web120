@@ -12,8 +12,6 @@
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-
-
 <body id="myPage">
 <!-- navbar -->
 <nav class="navbar" id="main">
@@ -36,55 +34,71 @@
   <a href="shop.php">SHOP</a>
   <a href="contact.php">CONTACT</a>
 </div>
+
 <!-- end of navbar -->
 
-
 <!-- hero -->
-<header class="hero">
-<div class="banner">
-<h1 class="banner-title">Ecole de flower collection</h1>
-<button class="banner-btn">shop now</button>
-</div>
+<header class="hero" >
+  <div class="banner">
+    <h1 class="banner-title">Ecole de flower collection</h1>
+      <button class="banner-btn"><a href="shop.php">shop now</a></button>
+  </div>      
 </header>
 <!-- end of hero -->
 
-
-
 <!-- products -->
 <section class="products">
-<div class="section-title">
-<h2>our products</h2>
-</div>
+  <div class="section-title">
+    <h2>our products</h2>
+  </div>
 <div class="products-center">
 <!-- single product -->
 <article class="product">
-<div class="img-container">
-<img src="./images/1.jpg" alt="flower" class="product-img"/>
-<button class="bag-btn" data-id="1">
-<i class="fas fa-shopping-cart"></i>add to bag</button>
-</div>
+  <div class="img-container">
+    <img src="./images/bg3.jpeg" alt="product" class="product-img"/>
+    <button class="bag-btn" data-id="1">
+      <i class="fas fa-shopping-cart"></i>add to bag</button>
+  </div>
 
-<h3>flower1</h3>
-<h4>$16</h4>
-</article>
+  <h3>flower</h3>
+  <h4>$16</h4>
+  </article>
 <!-- end of single product -->
-</div>
+  </div>
 </section>
 <!-- end of products -->
+
 
 <!-- cart -->
 <div class="cart-overlay">
   <div class="cart">
   <span class="close-cart"><i class="far fa-window-close"></i></span>
-  <h2>your cart</h2>
-  <div class="cart-content">
+    <h2>your cart</h2>
+    <div class="cart-content">
+<!-- cart item -->
+<!-- <div class="cart-item">
+<img src="./images/product-1.jpeg" alt="product" />
+<div>
+<h4>flower</h4>
+<h5>$15.00</h5>
+<span class="remove-item">remove</span>
 </div>
+<div>
+<i class="fas fa-chevron-up"></i>
+<p class="item-amount">1</p>
+<i class="fas fa-chevron-down"></i>
+</div>
+</div> -->
+
+<!-- cart item -->
+  </div>
 <div class="cart-footer">
   <h3>your total : $<span class="cart-total">0</span></h3>
   <button class="clear-cart banner-btn">clear cart</button>
   </div>
   </div>
 </div>
+<!-- end of cart -->
 
 <footer>
   <a href="https://www.facebook.com/nire9221"   target="_blank"><i class="fa fa-facebook-official"></i></a>
@@ -100,7 +114,7 @@
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
 <script src="js/app.js"></script>
-<!-- <script src="js/products.json"></script> -->
+<script src="js/products.json"></script>
 
   </body>
 </html>

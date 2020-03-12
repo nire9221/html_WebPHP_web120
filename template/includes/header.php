@@ -12,6 +12,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/products.json"></script>
+
   </head>
 
 
@@ -37,7 +41,6 @@
   <a href="shop.php">SHOP</a>
   <a href="contact.php">CONTACT</a>
 </div>
-<!-- end of navbar -->
 
 
 
