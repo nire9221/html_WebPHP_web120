@@ -12,8 +12,6 @@
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-
-
 <body id="myPage">
 <!-- navbar -->
 <nav class="navbar" id="main">
@@ -33,69 +31,28 @@
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <a href="index.php">HOME</a>
   <a href="about.php">ABOUT</a>
-  <a href="shop.php">SHOP</a>
+  <a href="gallery.php">GALLERY</a>
   <a href="contact.php">CONTACT</a>
 </div>
+
 <!-- end of navbar -->
 
-
-
-
 <!-- hero -->
-<header class="hero">
-<div class="banner">
-<h1 class="banner-title">Ecole de flower collection</h1>
-<button class="banner-btn">shop now</button>
-</div>
+<header class="hero" >
+  <div class="banner">
+    <h1 class="banner-title">Ecole de flower collection</h1>
+      <button class="banner-btn"><a href="gallery.php">Our work</a></button>
+  </div>      
 </header>
 <!-- end of hero -->
-
-
-
-<!-- products -->
-<section class="products">
-<div class="section-title">
-<h2>our products</h2>
-</div>
-<div class="products-center">
-<!-- single product -->
-<article class="product">
-<div class="img-container">
-<img src="./images/1.jpg" alt="flower" class="product-img"/>
-<button class="bag-btn" data-id="1">
-<i class="fas fa-shopping-cart"></i>add to bag</button>
-</div>
-
-<h3>flower1</h3>
-<h4>$16</h4>
-</article>
-<!-- end of single product -->
-</div>
-</section>
-<!-- end of products -->
-
-<!-- cart -->
-<div class="cart-overlay">
-  <div class="cart">
-  <span class="close-cart"><i class="far fa-window-close"></i></span>
-  <h2>your cart</h2>
-  <div class="cart-content">
-</div>
-<div class="cart-footer">
-  <h3>your total : $<span class="cart-total">0</span></h3>
-  <button class="clear-cart banner-btn">clear cart</button>
-  </div>
-  </div>
-</div>
-
-
 
 
 <footer>
   <a href="https://www.facebook.com/nire9221"   target="_blank"><i class="fa fa-facebook-official"></i></a>
   <a href="https://instagram.com/ecoledeflower?igshid=1to9832qkcd6d" target="_blank"><i class="fa fa-instagram"></i></a>
   <a href="#"><i class="fa fa-linkedin"></i></a>
-  <medium>Copyright © 2020 <a href="https://www.erintheworld.com" target="_blank" class="copyright">Ecole de flower</a></medium>
+  <small> Copyright © 2020 <a href="https://www.erintheworld.com" target="_blank" class="copyright">Ecole de flower</a>
+  <a href="http://validator.w3.org/check?uri=referer" target="_blank">Valid HTML</a> ~ <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">Valid CSS</a></small>
 
 <div style="position:relative;bottom:100px;z-index:1;" class="gototop">
     <span>Go To Top</span>   
@@ -103,9 +60,7 @@
     <i class="fa fa-chevron-circle-up" style="color:black; margin-left:5px;"></i></span></a>
 </div>
 </footer>
-<script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
-<script src="js/app.js"></script>
-<!-- <script src="js/products.json"></script> -->
+<script src="js/function.js"></script>
 
   </body>
 </html>

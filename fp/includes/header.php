@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <script src="js/function.js"></script>
+
+
   </head>
 
 
@@ -22,11 +25,11 @@
     <span class="nav-icon" style="cursor:pointer" onclick="openNav()"> <i class="fas fa-bars"></i>
     </span>
     <a href="index.php"><img src="./images/logo.png" style="height:60px" alt="store logo" /></a>
-  <div class="cart-btn">
-    <span class="nav-icon"><i class="fas fa-cart-plus"></i>
-    </span>
-    <div class="cart-items">0</div>
+
+    <div class="gototop"> 
+    <a href="#myPage"><span><i class="fas fa-arrow-alt-circle-up" style="font-size: 30px; color:black; margin-left:5px;"></i></span></a>
   </div>
+
 </div>
 </nav>
 
@@ -34,10 +37,9 @@
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <a href="index.php">HOME</a>
   <a href="about.php">ABOUT</a>
-  <a href="shop.php">SHOP</a>
+  <a href="gallery.php">GALLERY</a>
   <a href="contact.php">CONTACT</a>
 </div>
-<!-- end of navbar -->
 
 
 
